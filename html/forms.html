@@ -10,20 +10,32 @@
     <form action="/tacos">
       <div>
         <label for="username">Enter a Username</label>
-        <input type="text" placeholder="username" id="username" />
+        <input type="text" placeholder="username" id="username" name="username"/>
       </div>
       <div>
         <label for="password">Enter a Password</label>
-        <input type="password" placeholder="password" id="password" />
+        <input type="password" placeholder="password" id="password" name="password"/>
       </div>
       <div>
         <label for="color">Choose a Color</label>
-        <input type="color" id="color" />
+        <input type="color" id="color" name="color"/>
       </div>
       <div>
         <label for="number">Enter a Number</label>
-        <input type="number" placeholder="enter a number" id="number" />
+        <input type="number" placeholder="enter a number" id="number" name="number"/>
       </div>
+      <button type="button">Submit</button>
+    </form>
+    <h2>Searches</h2>
+    <h3>Search Reddit</h3>
+    <form action="https://www.reddit.com/search">
+        <input type="text" name="q">
+        <button>Search Reddit</button>
+    </form>
+    <h3>Search Google</h3>
+    <form action="https://www.google.com/search">
+        <input type="text" name="q">
+        <button>Search Google</button>
     </form>
   </body>
 </html>
