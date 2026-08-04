@@ -1,3 +1,11 @@
 h3 {
     color: indigo;
+    background-color: rgb(178, 20, 159);
+}
+button {
+    background-color: azure;
+    color: mediumslateblue;
+}
+p {
+    color:cornflowerblue;
 }
