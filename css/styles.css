@@ -1,39 +1,50 @@
 body {
-    background-color: #f1faee;
+  background-color: #f1faee;
 }
 button {
-    font-size: 30px;
-    background-color: #a8dadc;
+  font-size: 30px;
+  background-color: #a8dadc;
 }
-h1, h2 {
-    color: darkslateblue;
+h1,
+h2 {
+  color: darkslateblue;
 }
 #sing-up {
-    color: white;
-    background-color: #1d3557;
+  color: white;
+  background-color: #1d3557;
 }
 span {
-    color: #669bbc;
+  color: #669bbc;
 }
 .tag {
-    background-color: #c1121f;
-    color: #fdf0d5;
-    font-size: 16px;
+  background-color: #c1121f;
+  color: #fdf0d5;
+  font-size: 16px;
 }
 .post a {
-    color: #669bbc;
+  color: #669bbc;
 }
 footer a {
-    color: #c1121f;
+  color: #c1121f;
 }
 footer > a {
-    color: darkorchid;
+  color: darkorchid;
 }
 input + button {
-    background-color: indigo;
-    color: white;
+  background-color: indigo;
+  color: white;
 }
 h2 + button {
-    font-size: 20px;
-    background-color: violet;
+  font-size: 20px;
+  background-color: violet;
+}
+input[type="password"] {
+  color: rgb(85, 33, 173);
+}
+section[class="post"] {
+  background-color: plum;
+}
+.post button:hover {
+    background-color: #001219;
+    color: white;
 }
