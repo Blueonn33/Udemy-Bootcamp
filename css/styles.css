@@ -22,7 +22,9 @@ span {
   font-size: 16px;
 }
 .post a {
+  font-weight: 600;
   color: #669bbc;
+  text-decoration: none;
 }
 footer a {
   color: #c1121f;
@@ -45,6 +47,15 @@ section[class="post"] {
   background-color: plum;
 }
 .post button:hover {
-    background-color: #001219;
-    color: white;
+  background-color: #001219;
+  color: white;
+}
+.post a:hover {
+  text-decoration: underline dashed;
+}
+.post button:active {
+    background-color: #ca6702;
+}
+.post:nth-of-type(2n) {
+    background-color: indigo;
 }
