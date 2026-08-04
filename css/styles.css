@@ -1,0 +1,39 @@
+body {
+    background-color: #f1faee;
+}
+button {
+    font-size: 30px;
+    background-color: #a8dadc;
+}
+h1, h2 {
+    color: darkslateblue;
+}
+#sing-up {
+    color: white;
+    background-color: #1d3557;
+}
+span {
+    color: #669bbc;
+}
+.tag {
+    background-color: #c1121f;
+    color: #fdf0d5;
+    font-size: 16px;
+}
+.post a {
+    color: #669bbc;
+}
+footer a {
+    color: #c1121f;
+}
+footer > a {
+    color: darkorchid;
+}
+input + button {
+    background-color: indigo;
+    color: white;
+}
+h2 + button {
+    font-size: 20px;
+    background-color: violet;
+}
