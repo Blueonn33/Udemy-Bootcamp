@@ -66,3 +66,6 @@ h2::first-letter {
 body::selection {
     background-color: indigo;
 }
+button {
+    /* background-color: red !important; */
+}
