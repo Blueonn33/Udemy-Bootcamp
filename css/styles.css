@@ -57,5 +57,12 @@ section[class="post"] {
     background-color: #ca6702;
 }
 .post:nth-of-type(2n) {
+    background-color: rgb(113, 87, 131);
+    color: white !important;
+}
+h2::first-letter {
+    font-size: 40px;
+}
+body::selection {
     background-color: indigo;
 }
