@@ -3,6 +3,12 @@ div {
     height: 220px;
     background-color: aliceblue;
 }
+h1 {
+    background-color: #ffc8dd;
+    width: 100px;
+    padding-top: 50px;
+    padding-left: 120px;
+}
 #one {
     background-color: #bde0fe;
     border-width: 3px;
@@ -15,8 +21,16 @@ div {
     border-color: #430e18;
     border-width: 5px;
     border-style: dotted;
+    border-left-color: #cdb4db;
     box-sizing: border-box;
+    padding-right: 30px;
 }
 #three {
     background-color: #cdb4db;
+    border: 4px solid rgb(129, 53, 53);
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+button {
+    padding: 10px 20px;
 }
