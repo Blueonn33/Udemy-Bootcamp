@@ -1,3 +1,22 @@
 div {
-    width: 200px;
+    width: 220px;
+    height: 220px;
+    background-color: aliceblue;
+}
+#one {
+    background-color: #bde0fe;
+    border-width: 3px;
+    border-color: black;
+    border-style: solid;
+    box-sizing: border-box;
+}
+#two {
+    background-color: #ffc8dd;
+    border-color: #430e18;
+    border-width: 5px;
+    border-style: dotted;
+    box-sizing: border-box;
+}
+#three {
+    background-color: #cdb4db;
 }
