@@ -13,17 +13,17 @@ h1 {
     border: 1px solid black;
     line-height: 200%;
 }
-h2 {
+#ems h2 {
     font-size: 2em;
     margin-left: 1em;
 }
-h3 {
+#ems h3 {
     font-size: 1.5em;
 }
-p {
+#ems p {
     font-size: 1em;
 }
-article {
+#ems {
     font-size: 30px;
 }
 button {
@@ -32,4 +32,7 @@ button {
     border-radius: 0.5em;
     background-color: #bde0fe;
     color: white;
+}
+ul {
+   font-size: 1.5em; 
 }
