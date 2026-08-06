@@ -9,3 +9,15 @@ div {
 #middle {
     background-color: rgb(60, 107, 73);
 }
+#static #middle{
+    position: static;
+    top: 20px;
+}
+#relative #middle {
+    position: relative;
+    top: 30px;
+}
+#absolute #middle {
+    position: absolute;
+    left: 200px;
+}
