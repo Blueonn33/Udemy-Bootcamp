@@ -10,6 +10,12 @@ section {
     background-color: rgba(147, 99, 147, 0.7);
     color: white;
 }
+#hexa {
+    width: 50%;
+    height: 50%;
+    background-color: #93639355;
+    color: white;
+}
 #opacity {
     width: 50%;
     height: 50%;
