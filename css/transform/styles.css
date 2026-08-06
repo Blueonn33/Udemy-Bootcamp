@@ -1,0 +1,23 @@
+section {
+    font-size: 15px;
+}
+h1 {
+    background-color: #9d4edd;
+    border: 5px solid #3c096c;
+    color: #10002b;
+    padding: 0.7em;
+    width: 300px;
+    font-size: 2em;
+    text-align: center;
+    margin: 20px;
+}
+h1:nth-of-type(2n) {
+    background-color: #dac3e8;
+}
+h1:nth-of-type(3n) {
+    background-color: #b185db;
+}
+h1:nth-of-type(4n) {
+    background-color: #6247aa;
+    color: white;
+}
