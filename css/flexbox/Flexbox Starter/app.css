@@ -35,4 +35,14 @@ main {
   margin: 0 auto;
   border: 5px solid black;
   height: 500px;
+  display: flex;
+}
+main .sidebar {
+    background-color: indigo;
+    /* flex-grow flex-shrink flex-basis*/
+    flex: 1 2 300px;
+}
+main .maincontent {
+    background-color: lavender;
+    flex: 2 1 800px;
 }
