@@ -3,7 +3,8 @@
   height: 300px;
   background-color: darkcyan;
   /* property   duration   timing function   delay */
-  transition: all 0.35s;    
+  /* transition: all 0.35s;   */
+  transition: background-color 0.35s, border-radius 0.35s;  
   /* transition: 0.35s;    this is applied for everything in the element */
 }
 .circle:hover {
