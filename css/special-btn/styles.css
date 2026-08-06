@@ -3,4 +3,20 @@ body {
     align-items: center;
     justify-content: center;
     height: 100vh;
+    background-color: #121212;
+}
+button {
+    /* background: none; */
+    background-color: transparent;
+    color: #e0aaff;
+    border: 2px solid #a06cd5;
+    padding: 1em 2em;
+    font-size: 1em;
+    transition: all 0.25s;
+}
+button:hover {
+    border-color: #c19ee0;
+    color: #dec9e9;
+    box-shadow: 0 0.5em 0.5em -0.4em #c19ee0;
+    transform: translateY(-0.25em);
 }
