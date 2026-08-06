@@ -22,6 +22,15 @@ div {
 }
 #absolute #middle {
     position: absolute;
-    top: 100px;
+    top: 30px;
     left: 50px;
+}
+#fixed #middle {
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+#sticky #middle {
+    position: sticky;
+    bottom: 500px;
 }
