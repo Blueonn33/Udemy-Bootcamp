@@ -1,3 +1,6 @@
+body {
+    margin: 0;
+}
 div {
     width: 220px;
     height: 220px;
@@ -8,6 +11,7 @@ h1 {
     width: 100px;
     padding-top: 50px;
     padding-left: 120px;
+    margin-bottom: 0;
 }
 #one {
     background-color: #bde0fe;
@@ -15,6 +19,8 @@ h1 {
     border-color: black;
     border-style: solid;
     box-sizing: border-box;
+    margin-left: 50px;
+    margin-bottom: 100px;
 }
 #two {
     background-color: #ffc8dd;
