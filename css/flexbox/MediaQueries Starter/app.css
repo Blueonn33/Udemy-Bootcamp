@@ -16,5 +16,24 @@ ul,li {
     padding: 0;
 }
 
+@media(min-width: 600px) and (max-width: 800px) {
+    h1 {
+        color: purple;
+    }
+}
 
-
+@media (max-width: 1200px) {
+    h1 {
+        color: indigo;
+    }
+}
+@media (max-width: 1000px) {
+    h1 {
+        color: orange;
+    }
+}
+@media (max-width: 400px) {
+    h1 {
+        color: red;
+    }
+}
