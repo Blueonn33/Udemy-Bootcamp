@@ -20,6 +20,12 @@ body {
   color: #ea1c2c;
 }
 #heading-group h1 {
+  font-weight: 100;
+  font-size: 4rem;
+}
+@media (max-width: 1200px) {
+  #heading-group h1 {
     font-weight: 100;
-    font-size: 4rem;
+    font-size: 3rem;
+  }
 }
