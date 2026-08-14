@@ -39,14 +39,29 @@
 //     console.log("You are old. GET IN, baby");
 // }
 
-const password = prompt("Please enter a new password");
+// const password = prompt("Please enter a new password");
 
-if (password.length >= 6) {
-  if (password.indexOf(" ") === -1) {
-    console.log("Valid password, nice");
-  } else {
-    console.log("Remove the space, Knigga");
-  }
+// if (password.length >= 6) {
+//   if (password.indexOf(" ") === -1) {
+//     console.log("Valid password, nice");
+//   } else {
+//     console.log("Remove the space, Knigga");
+//   }
+// } else {
+//   console.log("Password is too short!! 6+ chars, Knigga :)");
+// }
+
+const userInput = prompt("Enter something");
+
+if (userInput) {
+  console.log("Truthy");
 } else {
-  console.log("Password is too short!! 6+ chars, Knigga :)");
+  console.log("Falsy");
+}
+
+const password = prompt("Enter your password");
+if (password.length >= 6 && password.indexOf(" ") === -1) {
+    console.log("Valid");
+} else {
+    console.log("Invalid pass, Knigga");
 }
