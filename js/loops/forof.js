@@ -7,3 +7,7 @@ for (let i = 0; i < subreddits.length; i++) {
 for (let reddit of subreddits) {
     console.log(`Visit reddit.com/r/${reddit}`);
 }
+
+for (let char of "hello world") {
+    console.log(char);
+}
