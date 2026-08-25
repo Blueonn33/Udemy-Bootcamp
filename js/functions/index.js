@@ -18,6 +18,9 @@ function sing() {
     console.log("MI");
 }
 
-function greet(firstName) {
-    console.log(`Hi, ${firstName}`);
+function greet(firstName, lastName) {
+    console.log(`Hi, ${firstName} ${lastName[0]}.`);
 }
+
+greet("George", "Clooney");
+
