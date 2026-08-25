@@ -24,3 +24,12 @@ function greet(firstName, lastName) {
 
 greet("George", "Clooney");
 
+function repeat(word, count) {
+    let result = "";
+    
+    for (let i = 0; i < count; i++) {
+        result += word;
+    }
+
+    console.log(result);
+}
