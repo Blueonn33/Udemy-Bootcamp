@@ -17,9 +17,9 @@ function callTwice(func) {
 }
 
 function callTenTime(f) {
-    for (let i = 0; i < 10; i++) {
-        f();
-    }
+  for (let i = 0; i < 10; i++) {
+    f();
+  }
 }
 
 function rollDie() {
@@ -28,3 +28,40 @@ function rollDie() {
 }
 
 callTwice(rollDie);
+
+// RETURNING FUNCTIONS
+function makeMysteryFunc() {
+  const rand = Math.random();
+
+  if (rand > 0.5) {
+    return function () {
+      console.log("Congrats");
+    };
+  } else {
+    return function () {
+      alert("You have been infected");
+    };
+  }
+}
+
+const mystery = makeMysteryFunc();
+mystery();
+
+function makeBetweenFunc(min, max) {
+    return function(num) {
+        return num >= min && num <= max;
+    }
+}
+
+const isChild = makeBetweenFunc(1, 18);
+isChild(40); // false
+isChild(2);  // true
+
+const isAdult = makeBetweenFunc(19, 64);
+
+function isBetween(num) {
+    return num >= 50 && num <= 100;
+}
+function isBetween2(num) {
+    return num >= 1 && num <= 10;
+}
