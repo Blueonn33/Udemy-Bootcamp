@@ -42,3 +42,18 @@ for (var i = 0; i < 5; i++) {
 // LET and CONST are function and block scoped
 console.log(i);   // 5  
 console.log(msg); // Hi
+
+// LEXICAL SCOPE
+function bankRobbery() {
+    const heroes = ["Bananaman", "Black Cat", "Duckwoman"];
+
+    function cryForHelp() {
+        for(let hero of heroes) {
+            console.log(`Help uss, ${hero}`);
+        }
+    }
+
+    cryForHelp();
+}
+
+bankRobbery();
