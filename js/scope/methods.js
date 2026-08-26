@@ -26,3 +26,15 @@ const shortMath = {
     }
 }
 
+// THIS is used to access properties on the same object
+
+const cat = {
+    name: "Indigo",
+    color: "gray",
+    breed: "stray cat",
+    meow() {
+        console.log(`${this.name} says Meoww`);
+    }
+}
+
+const meow2 = cat.meow;
