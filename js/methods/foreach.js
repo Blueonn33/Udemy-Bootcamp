@@ -55,3 +55,31 @@ const rollDie = () => {
     return Math.floor(Math.random() * 6) + 1;
 }
 
+const roll = () => (Math.floor(Math.random() * 6) + 1);
+
+const add1 = (a,b) => a + b;
+
+// Different ways of using functions
+// regular function expression
+const isEven1 = function(num) {
+    return num % 2 === 0;
+}
+
+// arrow function with parentheses around parameter
+const isEven2 = (num) => {
+    return num % 2 === 0;
+}
+
+// arrow function without parentheses around parameter
+const isEven3 = num => {
+    return num % 2 === 0;
+}
+
+// implicit return
+const isEven4 = num => (
+    num % 2 === 0
+);
+
+// one-liner implicit return
+const isEven5 = num => num % 2 === 0;
+
