@@ -18,6 +18,8 @@ function print(el) {
     console.log(el);
 }
 
+// FOREACH - accepts a callback function. Calls the function once
+// per element in the array
 numbers.forEach(print)
 numbers.forEach(function(el) {
     if (el % 2 === 0) 
@@ -28,3 +30,5 @@ movies.forEach(function (movie) {
     console.log(`${movie.title} - ${movie.score}/100`);
 });
 
+// MAP - creates a new array with the result of calling a callback
+// on every element in the array
