@@ -32,3 +32,10 @@ movies.forEach(function (movie) {
 
 // MAP - creates a new array with the result of calling a callback
 // on every element in the array
+numbers.map(function(num) {
+    return num * 2;
+});
+
+const titles = movies.map(function(movie) {
+    return movie.title;
+})
