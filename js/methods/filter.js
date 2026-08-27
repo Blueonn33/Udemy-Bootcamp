@@ -7,3 +7,14 @@ numbers.filter(n => {
     return n < 10;
 })
 
+// EVERY - tests whether ALL elements in the array pass the
+// provided function. It returns a boolean value
+
+// SOME - similar to every but returns TRUE if ANY of the
+// array elements pass the test function
+
+const exams = [84, 43, 54, 94, 41, 50, 65];
+
+const passed = exams.every(score => score > 40); // true;
+
+exams.some(score => score > 90);
