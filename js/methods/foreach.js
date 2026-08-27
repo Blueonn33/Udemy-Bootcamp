@@ -83,3 +83,10 @@ const isEven4 = num => (
 // one-liner implicit return
 const isEven5 = num => num % 2 === 0;
 
+// const moviesDecimal = movies.map(function(movie) {
+//     return `${movie.title} - ${movie.score / 10}`
+// })
+
+const newMovies = movies.map(movie => (
+    `${movie.title} - ${movie.score / 10}`
+))
