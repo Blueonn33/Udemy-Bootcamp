@@ -31,3 +31,31 @@ const allPets = [...cats, ...dogs, "Labirynth"];
 // SPREAD IN OBJECT LITERALS - copies properties from one object
 // into another object literal
 
+const feline = {
+    legs: 4,
+    family: "Felidae"
+};
+
+const canine = {
+    isFurry: true,
+    family: "Caninae"
+};
+
+const catDog = {...feline, ...canine};
+// legs: 4,
+// isFurry: true,
+// family: "Caninae"    -> conflict with the Felidae. Last
+// one wins
+
+const arr = {...[2,3,4,2]};
+// 0: 2,
+// 1: 3,
+// ...  indeces are the keys and the values are the values
+
+const dataFromForm = {
+    email: "nihha@gmail.com",
+    password: "hinna11",
+    username: "FunkoKA"
+}
+
+const newUser = {...dataFromForm, id: 12, isAdmin: false}
