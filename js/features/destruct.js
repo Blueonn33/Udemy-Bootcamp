@@ -1,0 +1,4 @@
+// DESTRUCTURING - short, clean syntax to unpack:
+//  - Values from arrays
+//  - Properties from objects 
+// Into distinct variables
