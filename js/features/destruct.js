@@ -46,3 +46,27 @@ const {profession, town = "Sofia"} = user2;
 
 
 // params destructuring
+// function fullName(user) {
+//     return `${user.firstName} ${user.lastName}`
+// }
+
+// function fullName(user) {
+//     const {firstName, lastName} = user;
+//     return `${firstName} ${lastName}`
+// }
+
+function fullName({ firstName, lastName }) {
+    return `${firstName} ${lastName}`;
+}
+fullName(user);
+
+movies.filter((movie) => movie.score >= 90);
+movies.filter(({ score }) => score > 90);
+
+movies.map(movie => {
+    return `${movie.title} (${movie.year}) is rated ${movie.score}`
+});
+
+movies.map(({ title, score, year }) => {
+    return `${title} (${year}) is rated ${score}`
+});
