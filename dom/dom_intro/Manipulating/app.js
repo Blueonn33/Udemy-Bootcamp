@@ -1,15 +1,13 @@
-const h1 = document.querySelector('h1');
-h1.style.color = "blue"
+const h2 = document.querySelector("h2");
+h2.setAttribute("class", "purple");
+// the next class overrides the previous
+h2.setAttribute("class", "border");
 
-const allLinks = document.querySelectorAll("a");
+h2.classList.add("purple");
+h2.classList.remove("border");
+h2.classList.add("border");
 
-for (let link of allLinks) {
-    link.style.color = "red";
-    link.style.textDecorationColor = "magenta";
-    link.style.textDecorationStyle = "wavy";
-}
+h2.classList.contains("purple");
+h2.classList.toggle("purple");  // if the class contains purple
+// then it is removed and reverse works
 
-// GETTING THE VALUES OF AN ELEMENT
-window.getComputedStyle(h1).color;
-window.getComputedStyle(h1).fontSize;
-window.getComputedStyle(h1).fontFamily;
