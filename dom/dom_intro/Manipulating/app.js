@@ -27,3 +27,13 @@ const squareImgs = document.getElementsByClassName("square");
 for (let img of squareImgs) {
     // img.src = "";
 }
+
+// QUERY SELECTOR - a newer method to select a single element
+const firstMatch = document.querySelector("p");
+const bannerFirst = document.querySelector("#banner");
+const squareFirst = document.querySelector(".square");
+
+document.querySelector("img:nth-of-type(2)");
+
+// querySelectorAll - returns a collection of matching elements
+
