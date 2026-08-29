@@ -19,5 +19,11 @@ const firstImage = images[0];
 const length = images.length;  // 4
 
 for (let img of images) {
-    console.log(img.src);
+    // console.log(img.src);
+}
+
+const squareImgs = document.getElementsByClassName("square");
+
+for (let img of squareImgs) {
+    // img.src = "";
 }
