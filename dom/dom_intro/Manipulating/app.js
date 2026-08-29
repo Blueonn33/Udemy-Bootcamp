@@ -10,3 +10,6 @@ for (let link of allLinks) {
     link.style.textDecorationColor = 'magenta';
     link.style.textDecorationStyle = 'wavy'
 }
+
+const banner = document.getElementById('banner');
+const toc = document.getElementById('toc');
