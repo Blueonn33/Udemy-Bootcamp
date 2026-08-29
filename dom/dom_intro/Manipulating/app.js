@@ -13,3 +13,11 @@ for (let link of allLinks) {
 
 const banner = document.getElementById('banner');
 const toc = document.getElementById('toc');
+
+const images = document.getElementsByTagName("img"); // HTML collection
+const firstImage = images[0];
+const length = images.length;  // 4
+
+for (let img of images) {
+    console.log(img.src);
+}
